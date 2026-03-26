@@ -106,7 +106,7 @@ Altogether the full code for this page looks as follows:
 
 The simulated database of todo objects provided by the function `getTodos()` created a single todo for `Learn SvelteKit` when it's called the first time, and no simulated map-database collection of todo objects yet exists:
 
-`/routes/+page.svelte`
+`/lib/server/database.js`
 
 
 ```javascript
